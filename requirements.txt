@@ -1,0 +1,4 @@
+winsdk
+requests
+pillow
+syncedlyrics

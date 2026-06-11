@@ -1,0 +1,21 @@
+[project]
+name = "desktop-pet"
+version = "1.0.0"
+description = "像素小兔子桌面宠物 — 16×16 像素兔 + 歌词同步"
+requires-python = ">=3.10"
+dependencies = [
+    "winsdk",
+    "requests",
+    "pillow",
+    "syncedlyrics",
+]
+
+[project.scripts]
+desktop-pet = "src.main:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
